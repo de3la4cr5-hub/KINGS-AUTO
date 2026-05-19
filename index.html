@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>KINGS AUTO - Your Reliable Driving</title>
+  <title>KINGS AUTO - Your Reliable Driving Partner</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -11,33 +11,54 @@
       padding: 0;
       background: #f5f5f5;
       color: #333;
-      text-align: center;
     }
     header {
       background: #1a1a1a;
       color: white;
-      padding: 40px 20px;
+      padding: 50px 20px;
+      text-align: center;
     }
     header h1 {
       margin: 0;
-      font-size: 36px;
+      font-size: 40px;
+    }
+    header p {
+      font-size: 18px;
+      margin-top: 10px;
     }
     .btn {
       display: inline-block;
-      margin: 10px;
+      margin-top: 20px;
       padding: 15px 30px;
       background: #ffcc00;
       color: #000;
       text-decoration: none;
       border-radius: 5px;
+      font-weight: bold;
     }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Welcome to KINGS AUTO</h1>
-    <p>Your Reliable Driving Partner</p>
-    <a href="#" class="btn">View Cars</a>
-  </header>
-</body>
-</html>
+    .cars {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .cars h2 {
+      margin-bottom: 30px;
+    }
+    .car-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .car-card {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .car-card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .contact {
+      background: #1a1a1a
